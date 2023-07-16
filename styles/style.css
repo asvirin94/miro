@@ -84,7 +84,7 @@
     flex-direction: column;
 }
 
-.text-part h2 {
+.text-part h2, .features_item--title, .type-of-tasks_title {
     width: 285px;
     font-size: 48px;
     font-weight: 400;
@@ -166,3 +166,115 @@
     display: flex;
     align-items: center;
 }
+
+.features {
+    margin-bottom: 148px;
+}
+
+.features_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features .features_item:first-of-type {
+    margin-bottom: 200px;
+}
+.features_item--title {
+    width: 432px;
+}
+
+.features_item--text {
+    width: 436px;
+    color: rgba(5, 0, 56, 0.60);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.type-of-tasks_title {
+    width: 878px;
+    margin-bottom: 34px;
+}
+
+.work-types-buttons {
+    display: flex;
+    gap: 8px;
+
+    margin-bottom: 26px;
+}
+
+.work-types-button {
+    border-radius: 24px;
+    border: 1px solid #F2F2F2;
+    padding: 13px 18px;
+
+    color: #050038;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  
+  .work-types-button:focus {
+    border-radius: 24px;
+    border: 1px solid #F2F2F2;
+    background: #d0d1d7;
+    padding: 13px 18px;
+    outline: none;
+  }
+
+  .work-types-button:hover {
+    outline: 1px solid rgba(21, 10, 139, 0.6);
+  }
+
+  .type-description {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .type-descritption__text-part {
+    width: 288px;
+    margin-top: 30px;
+  }
+
+  .type-name {
+    color: #050038;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin-bottom: 25px;
+  }
+
+  .type-text {
+    color: #050038;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+
+    margin-bottom: 32px;
+  }
+
+  .type-learn-more {
+    color: #4262FF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+  }
+
+
+
